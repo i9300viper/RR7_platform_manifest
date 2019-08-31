@@ -51,10 +51,10 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="non" revision="rr-n" />
   <project path="frameworks/base" name="non1979/RR7_android_frameworks_base" remote="github" revision="nougat" />
   <project path="packages/apps/Settings" name="non1979/RR7_Resurrected_packages_apps_Settings" remote="github" revision="nougat" />
-  <project path="external/skia" name="RR7_android_external_skia" remote="non"/>
-  <project path="art" name="art" remote="rr" />
-  <project path="frameworks/native" name="RR7_frameworks_native" remote="non" />
-  <project path="system/core" name="RR7_system_core" remote="non" />
+  <project path="external/skia" name="external_skia" remote="rr-n" />
+  <project path="art" name="art" remote="rr-n" />
+  <project path="frameworks/native" name="frameworks_native" remote="rr-n" />
+  <project path="system/core" name="system_core" remote="rr-n" />
   <project path="system/extras" name="RR7_android_system_extras" groups="pdk" remote="non" revision="cm-14.1" />
   <project path="external/google" name="android_external_google" remote="rr" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
