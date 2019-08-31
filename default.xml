@@ -88,21 +88,21 @@
   <project path="external/bison" name="LineageOS/android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" remote="aosp" />
   <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" />
-  <project path="external/bouncycastle" name="RR7_android_external_bouncycastle" groups="pdk" remote="non" revision="cm-14.1" />
+  <project path="external/bouncycastle" name="LineageOS/android_external_bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bzip2" name="LineageOS/android_external_bzip2" groups="pdk" />
   <project path="external/c-ares" name="platform/external/c-ares" groups="pdk" remote="aosp" />
   <project path="external/caliper" name="platform/external/caliper" groups="pdk" remote="aosp" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk" remote="aosp" />
-  <project path="external/chromium-libpac" name="RR7_android_external_chromium-libpac" groups="pdk" remote="non" revision="cm-14.1" />
+  <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="github" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" remote="aosp" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" remote="aosp" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" remote="aosp" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" remote="aosp" />
-  <project path="external/curl" name="RR7_android_external_curl" groups="pdk" remote="non" revision="cm-14.1" />
+  <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" remote="aosp" />
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" remote="aosp" />
   <project path="external/dbus-binding-generator" name="platform/external/dbus-binding-generator" groups="pdk" remote="aosp" />
@@ -215,11 +215,11 @@
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk" remote="aosp" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk" remote="aosp" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk" remote="aosp" />
-  <project path="external/libvorbis" name="RR7_android_external_libvorbis" groups="pdk" remote="non" revision="cm-14.1" />
+  <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" groups="pdk" />
   <project path="external/libvpx" name="RR7_android_external_libvpx" groups="pdk" remote="non" revision="cm-14.1" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" remote="aosp" />
   <project path="external/libweave" name="platform/external/libweave" groups="pdk" remote="aosp" />
-  <project path="external/libxml2" name="RR7_android_external_libxml2" groups="pdk,libxml2" remote="non"/>
+  <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" remote="aosp" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk" remote="aosp" />
   <project path="external/lld" name="platform/external/lld" groups="pdk" remote="aosp" />
@@ -246,7 +246,7 @@
   <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk" remote="aosp" />
   <project path="external/netcat" name="platform/external/netcat" groups="pdk" remote="aosp" />
   <project path="external/netperf" name="platform/external/netperf" groups="pdk" remote="aosp" />
-  <project path="external/neven" name="RR7_android_external_neven" groups="pdk" remote="non" revision="cm-14.1" />
+  <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" />
   <project path="external/nfacct" name="platform/external/nfacct" groups="pdk" remote="aosp" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk" remote="aosp" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk" remote="aosp" />
@@ -254,7 +254,6 @@
   <project path="external/oauth" name="platform/external/oauth" groups="pdk" remote="aosp" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" remote="aosp" />
   <project path="external/okhttp" name="LineageOS/android_external_okhttp" groups="pdk" />
-  <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" remote="aosp" />
@@ -274,7 +273,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" remote="aosp" />
-  <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" />
+  <project path="external/sfntly" name="LineageOS/android_external_sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" remote="aosp" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk" remote="aosp" />
@@ -479,7 +478,7 @@
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
-  <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" remote="aosp" />
+  <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />
   <project path="system/vold" name="RR7_android_system_vold" groups="pdk" remote="non" revision="cm-14.1" />
   <project path="system/weaved" name="platform/system/weaved" remote="aosp" />
   <project path="system/webservd" name="platform/system/webservd" remote="aosp" />
