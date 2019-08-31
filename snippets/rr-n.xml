@@ -49,7 +49,7 @@
   <project path="packages/apps/LockClock" name="RR7_android_packages_apps_LockClock" remote="non" />
   <project path="packages/apps/CMParts" name="RR7_android_packages_apps_CMParts" remote="non"/>
   <project path="frameworks/av" name="android_frameworks_av" remote="non" revision="rr-n" />
-  <project path="frameworks/base" name="RR7_android_frameworks_base" remote="non" />
+  <project path="frameworks/base" name="non1979/RR7_android_frameworks_base" remote="github" revision="nougat" />
   <project path="packages/apps/Settings" name="RR7_Resurrected_packages_apps_Settings" remote="non" />
   <project path="external/skia" name="RR7_android_external_skia" remote="non"/>
   <project path="art" name="art" remote="rr" />

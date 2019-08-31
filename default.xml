@@ -27,7 +27,7 @@
     revision="nougat" />
 
   <remote  name="non"
-	   fetch="https://github.com/encaro"
+	   fetch="https://github.com/i9300old"
 	   revision="nougat" />
 
  <remote name = "bb"
@@ -39,7 +39,7 @@
           fetch = "https://github.com/UBERROMS" />
 
   <!-- AOSP Projects -->
-  <project path="build" name="RR7_android_build" remote="non" >
+  <project path="build" name="non1979/RR7_android_build" remote="github" revision="nougat">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
